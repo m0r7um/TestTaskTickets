@@ -77,7 +77,6 @@ public class Main {
 
         float med;
         List<Integer> sortedPrices = prices.stream().sorted().toList();
-        sortedPrices.forEach(System.out::println);
         if (prices.size() % 2 == 1) {
             med = sortedPrices.get(prices.size() / 2);
         } else {
